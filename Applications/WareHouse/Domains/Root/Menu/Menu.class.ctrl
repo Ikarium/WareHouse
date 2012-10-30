@@ -1,0 +1,23 @@
+<?php
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * 
+ *
+ * 
+ * 
+ * @version   0.0.5
+ * @since     0.0.5
+ * @author    Benyamna Karim <eva.axis@gmail.com>
+ * @copyright CC-BY-NC-SA 3.0 
+*/
+
+class Menu extends Hestia\Core\BackController
+{
+    protected function construct()
+    {
+           $this->area = 'Menu';
+    }
+    
+}
+ 

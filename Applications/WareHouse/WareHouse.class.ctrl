@@ -1,0 +1,24 @@
+<?php
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * Front application controller, extended from the application class
+ *
+ * 
+ * 
+ * @version   0.0.2
+ * @since     0.0.2
+ * @author    Benyamna Karim <eva.axis@gmail.com>
+ * @copyright CC BY-NC-SA 3.0  
+*/
+
+final class WareHouse extends \Hestia\Core\Application
+{
+    
+    public function __construct()
+    {
+        parent::__construct('WareHouse');
+    }
+    
+    
+}

@@ -1,0 +1,6 @@
+<?php
+
+function test()
+{
+	echo $_GET['ajaxRequestParam'];
+}

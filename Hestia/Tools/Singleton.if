@@ -1,0 +1,18 @@
+<?php
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * Simple Singleton interface
+ * 
+ * @version   0.1.1
+ * @since     0.1.1
+ * @author    Benyamna Karim <eva.axis@gmail.com>
+ * @copyright CC BY-NC-SA 3.0  
+*/
+
+namespace Hestia\Tools;
+
+interface ISingleton
+{
+    public static function singletron($app);
+}

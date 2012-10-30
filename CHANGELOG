@@ -1,0 +1,54 @@
+
+Alpha 0.1.1
+	-Bugs correction
+	-Namespace implementation
+
+Alpha 0.1.0 02/06/2012
+	-Access System
+		-Easy file integration.
+		-Simple design file naming
+		-Ajax system.
+	-Mime type detector
+	-Testing
+	-Configuration default improvement
+	-Back Controller Shortcuts
+
+Prototype 0.0.5 20.05.2012
+	-Default system implementation.
+	-Persistent modules and Primary modules systme.
+	-Back Controller reform.
+	-Sub Domain management, MidController implementation.
+	-Configuration system, default system.
+	-Page algorithm modification
+	-Request adaptation, improvement.
+	-Router big reformatting and purpose change.
+	-Template System
+
+Prototype 0.0.4 1.03.2012
+	-Library Test And Debug.
+
+Prototype 0.0.3 18.02.2012
+	-Base Library finalisation:
+		-Back Controller Class.
+		-Page Class.
+		-User Class.
+		-Multiple controller (one per Area) integration.
+		-Generalised multiple modifications.
+	-Doc and comments structure finalization.
+
+Prototype 0.0.2 15.02.2012
+	-Reminding all the architecture, start a full object oriented programing.
+	-Library development.
+		-Application base.
+		-Writing the router.
+		-Writing the autoload.
+		-HTTP manager.
+	-Setting the folder tree of a standard applications.
+
+Prototype 0.0.1 08.02.2012
+	-Writing a large part of the Front Controller.
+	-Create the DataBase Management System Manager.
+	-First part of the configuration file.
+
+Prototype 0.0.0 01.02.2012
+	-Finish installing and configuring the environment.

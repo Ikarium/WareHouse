@@ -1,0 +1,29 @@
+<?php
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */
+
+/**
+ * Main domain controller
+ *
+ * 
+ * 
+ * @version   0.0.5
+ * @since     0.0.5
+ * @author    Benyamna Karim <eva.axis@gmail.com>
+ * @copyright CC-BY-NC-SA 3.0 
+*/
+
+final class Root extends Hestia\Core\MidController
+{
+    protected function construct()
+    {
+        define('MYSQL_DATABASE', $this->app->Router()->initialDomain());
+        
+        $this->app->DataBase()->mysqlConnect();
+
+        include TOOLS_PATH.CompileLessCssJs.'.class.php';
+        $independanteFile = setIndependanteFiles();
+        $compile = new Hestia\Tools\CompileLessCssJs(Hestia\Tools\CompileLessCssJs::LessCssJsAll, null, $independanteFile);
+
+    }
+    
+}
